@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+
+Var
+   i:inteiro
+  numero,  numeronegativo ,numeropositivo  :inteiro
+
+Inicio
+
+   para i de 1 ate 5 faca
+   escreval(" coloque o seu " , i,  "º" , " número ")
+   leia(numero)
+
+     se (numero>0 )entao
+     
+     numeropositivo <- numeropositivo + numero
+     
+     senao
+
+     se (numero < 0)entao
+     numeronegativo <-  numeronegativo + 1
+     fimse
+     fimse
+     fimpara
+     escreval("soma dos números positivos ", numeropositivo)
+     escreval("quantidades dos números negativos ", numeronegativo)
+     
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
