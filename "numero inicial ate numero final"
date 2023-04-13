@@ -1,0 +1,19 @@
+Algoritmo "numero inicial ate numero final"
+
+Var
+   comeco , fim , i ,passa :inteiro
+inicio
+   escreval("digite o número inicial ")
+   leia(comeco)
+   escreval(" digite o número final ")
+   leia(fim)
+   se comeco > fim entao
+      passa <- -1
+   senao
+      passa <- 1
+   fimse
+   para i de comeco ate fim passo passa faca
+      escreval(i)
+   fimpara
+
+Fimalgoritmo
