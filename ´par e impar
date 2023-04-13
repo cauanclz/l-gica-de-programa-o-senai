@@ -1,0 +1,20 @@
+Algoritmo "número inicial até o número final"
+
+var
+   par , impar , i :inteiro
+inicio
+   para i de 1 ate 5 faca
+      leia(i)
+      se i mod 2 = 0 entao
+         par <- par + 1
+         escreval("par")
+      senao
+         impar <- impar + 1
+         escreval("impar")
+      fimse
+   fimpara
+
+   Escreval("QUANTIDADE DE NUMEROS PARES: ",par)
+   Escreval("QUANTIDADE DE NUMEROS IMPARES: ",impar)
+
+Fimalgoritmo
