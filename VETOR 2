@@ -1,0 +1,37 @@
+Algoritmo "vetor 2"
+Var
+   nota:vetor [1..4] de inteiro
+   media:real
+   i , j,soma :inteiro
+inicio
+
+   para i de 1 ate 4 faca
+      escreval("digite a  ", i, "ª nota ")
+        leia(nota[i])
+
+
+      soma <- soma + nota[i]
+   fimpara
+
+
+   limpatela
+   
+   media <- soma /i
+   
+   para j de 1 ate 4 passo 1 faca
+   
+      escreval(j,"ª nota : " , nota[j])
+      
+   fimpara
+   
+   escreval("sua media foi : " , media)
+   se (media >=7)entao
+   escreval("aprovado")
+   fimse
+   se (media >=5) e (media < 7) entao
+   escreval("recuperação")
+   fimse
+   se (media < 5 )entao
+   escreval("reprovado")
+   fimse
+Fimalgoritmo
